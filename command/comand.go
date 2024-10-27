@@ -1,7 +1,7 @@
 package command
 
 type Command struct {
-	name     string
+	Name     string
 	Lname    string
 	Run      func(string) error
 	Commands *[]Command
